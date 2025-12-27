@@ -1,5 +1,5 @@
-// //burn-akio.cjs
-// AKIO burn script — burns BURN_AMOUNT tokens each time it runs,
+// //GTG-akio.cjs
+// GTG burn script — burns BURN_AMOUNT tokens each time it runs,
 // logs before/after mint supply, and posts to Telegram (optional).
 
 const fs = require("fs");
@@ -287,17 +287,17 @@ const totalBurnedFormatted = totalBurnedUi.toLocaleString("en-US");
 const goalTarget = "200,000,000";  // 200 million target
 
 const tgText =
-  `📉 *AKIO Burn Update*\n\n` +
+  `📉 *GTG Burn Update*\n\n` +
   `${whenStr} (Toronto)\n\n` +
   `Tokens outstanding *before* burn: \`${beforeUiStr}\`\n` +
-  `We are now burning *${burnUiStr}* AKIO.\n\n` +
+  `We are now burning *${burnUiStr}* GTG.\n\n` +
   `✅ Burning complete.\n` +
   `[View on Solscan](${solscanUrl})\n\n` +
   `New tokens outstanding: \`${afterUiStr}\`\n\n` +
   `📊 *Supply Tracker*\n` +
   `• Original token count: *1,000,000,000*\n` +
   `• Total burned so far: *${totalBurnedFormatted}*\n` +
-  `• Goal: *Burn ${goalTarget}+ tokens by December 31, 2025* 🔥`;
+  `• Goal: *Burn ${goalTarget}+ tokens by January 31, 2026* 🔥`;
 
     await sendTelegramMessage(tgText);
 
