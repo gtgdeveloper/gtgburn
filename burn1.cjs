@@ -1,7 +1,7 @@
 // //GTG-akio.cjs
 // GTG burn script — burns BURN_AMOUNT tokens each time it runs,
 // logs before/after mint supply, and posts to Telegram (optional).
-
+//
 const fs = require("fs");
 const path = require("path");
 const {
