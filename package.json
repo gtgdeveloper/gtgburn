@@ -1,7 +1,7 @@
 {
   "name": "akio-burn",
   "version": "1.0.0",
-  "main": "gtgburn.cjs",
+  "main": "burn2.cjs",
   "type": "commonjs",
   "dependencies": {
     "@solana/web3.js": "^1.95.4",
